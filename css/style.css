@@ -23,7 +23,7 @@ body {
     word-spacing: 1px;
     color: #2c3e50;
     font-family: "Roboto", sans-serif;
-    text-transform: capitalize; }
+    text-transform: uppercase; }
   .top-nav button.navbar-toggler:focus, .top-nav button.navbar-toggler:hover {
     outline: inherit; }
 
