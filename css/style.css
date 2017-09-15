@@ -19,11 +19,12 @@ body {
     text-align: left;
     margin-left: 20px; }
   .top-nav a {
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     word-spacing: 1px;
     color: #000;
     font-family: "Roboto", sans-serif;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    font-size: 15px; }
   .top-nav button.navbar-toggler:focus, .top-nav button.navbar-toggler:hover {
     outline: inherit; }
 
