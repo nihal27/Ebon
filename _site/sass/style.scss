@@ -15,3 +15,36 @@ body{
   background-color: #fff;
   text-align: center;
 }
+
+// Navigation
+
+.top-nav{
+  width: 100%;
+  .navbar{
+    width: 100%;
+    background-color:#fff;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  ul{
+    float: left;
+  }
+  li{
+     text-align: left;
+     margin-left: 20px;
+  }
+  a{
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: #000;
+    font-family: $primary-font;
+    text-transform: capitalize;
+  }
+  button.navbar-toggler:focus, button.navbar-toggler:hover{
+    outline: inherit;
+  }
+}
+.navbar-toggler-icon{
+ .fa{
+  padding-top: 5px !important;
+   }
+}

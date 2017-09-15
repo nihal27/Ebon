@@ -7,4 +7,27 @@ body {
   background-color: #fff;
   text-align: center; }
 
+.top-nav {
+  width: 100%; }
+  .top-nav .navbar {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc; }
+  .top-nav ul {
+    float: left; }
+  .top-nav li {
+    text-align: left;
+    margin-left: 20px; }
+  .top-nav a {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize; }
+  .top-nav button.navbar-toggler:focus, .top-nav button.navbar-toggler:hover {
+    outline: inherit; }
+
+.navbar-toggler-icon .fa {
+  padding-top: 5px !important; }
+
 /*# sourceMappingURL=style.css.map */
