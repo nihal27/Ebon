@@ -21,10 +21,9 @@ body {
   .top-nav a {
     letter-spacing: 0.3px;
     word-spacing: 1px;
-    color: #000;
+    color: #2c3e50;
     font-family: "Roboto", sans-serif;
-    text-transform: capitalize;
-    font-size: 16px; }
+    text-transform: capitalize; }
   .top-nav button.navbar-toggler:focus, .top-nav button.navbar-toggler:hover {
     outline: inherit; }
 
