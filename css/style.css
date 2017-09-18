@@ -10,19 +10,21 @@ body {
 .top-nav {
   width: 100%; }
   .top-nav .navbar {
-    background-color: #fff; }
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc; }
   .top-nav ul {
     float: left; }
   .top-nav li {
     text-align: left;
     margin-left: 20px; }
   .top-nav a {
-    letter-spacing: 0.3px;
-    word-spacing: 1px;
-    color: #2c3e50;
-    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
-    font-size: 14px; }
+    font-weight: 600;
+    color: #000;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 1px; }
   .top-nav button.navbar-toggler:focus, .top-nav button.navbar-toggler:hover {
     outline: inherit; }
 
@@ -32,5 +34,186 @@ body {
 .header img {
   width: 100%;
   height: 600px; }
+
+.intro {
+  margin-top: 120px; }
+  .intro .intro-img-sec {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px; }
+  .intro .intro-img-sec,
+  .intro .intro-heading {
+    margin: 30px 0px; }
+  .intro .intro-heading h1 {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-transform: capitalize; }
+  .intro .intro-heading p {
+    color: #ccc;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif; }
+  .intro .detail p {
+    margin-top: 10px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 13px; }
+  .intro .detail a {
+    padding: 10px 30px;
+    box-shadow: -3px 3px 5px #ccc;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    border-radius: 2px;
+    font-weight: 600; }
+    .intro .detail a:hover {
+      box-shadow: none;
+      font-weight: normal; }
+
+.offer {
+  margin-top: 150px;
+  background-color: #f5f7fa;
+  box-shadow: 0px 0px 5px #ccc; }
+  .offer h3 {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding-top: 100px;
+    text-transform: capitalize; }
+  .offer p {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 13px; }
+  .offer .row {
+    margin: 80px 0px;
+    padding-bottom: 50px; }
+  .offer .image-container {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px; }
+
+.choose .choose-header {
+  margin: 60px 0px 60px 0px; }
+  .choose .choose-header h3 {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-transform: capitalize; }
+  .choose .choose-header p {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 13px; }
+.choose .flat-icon {
+  width: 100px;
+  height: 100px;
+  margin: 80px auto 0px auto;
+  font-size: 25px;
+  border-radius: 50%;
+  box-shadow: -8px 8px 20px 0px #ccc;
+  padding-top: 9%;
+  color: #fff;
+  background-color: #4fc1e9; }
+.choose .choose-detail p {
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  font-size: 13px;
+  padding: 20px 10px; }
+
+.service {
+  margin: 100px 0px 0px 0px;
+  background-color: #e6e9ed;
+  box-shadow: 0px 0px 5px #ccc;
+  width: 100%;
+  height: 900px; }
+  .service h2 {
+    padding-top: 60px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize; }
+  .service p {
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    font-size: 13px;
+    margin-bottom: 100px; }
+  .service .image-container {
+    border: 1px solid black;
+    width: 550px;
+    height: 300px;
+    margin: 10px 0px; }
+  .service .overlay h3 {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 0.5px; }
+
+.consult h2 {
+  margin-top: 100px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize; }
+.consult p {
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  font-size: 13px;
+  margin-bottom: 100px; }
+.consult .consultancy-container {
+  border: 1px solid black;
+  width: 380px;
+  height: 450px; }
+  .consult .consultancy-container h3 {
+    text-transform: capitalize;
+    position: absolute;
+    top: 46%;
+    left: 36%; }
+  .consult .consultancy-container .special {
+    position: absolute;
+    top: 46%;
+    left: 46%; }
+
+.blog {
+  margin: 100px 0px; }
+  .blog h2 {
+    margin-top: 50px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 25px;
+    text-transform: capitalize; }
+  .blog p {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    word-spacing: 1px; }
+  .blog .blog-container li {
+    display: inline-block;
+    float: left;
+    list-style-type: none; }
+  .blog .blog-container a {
+    text-decoration: none; }
+  .blog .blog-container h3 {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px; }
+  .blog .img-container {
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 12px;
+    width: 355px;
+    height: 300px; }
+    .blog .img-container img {
+      width: 100%;
+      height: 100%; }
+  .blog a {
+    text-transform: capitalize; }
+
+.footer {
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  font-size: 13px;
+  padding-bottom: 8px; }
 
 /*# sourceMappingURL=style.css.map */
