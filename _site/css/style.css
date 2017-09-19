@@ -100,19 +100,23 @@ body {
   .offer h3 {
     letter-spacing: 0.5px;
     word-spacing: 1px;
-    padding-top: 100px;
+    padding-top: 60px;
     text-transform: capitalize; }
   .offer p {
     letter-spacing: 0.5px;
     word-spacing: 1px;
     font-size: 13px; }
+  .offer .offer-details {
+    margin-top: 80px; }
   .offer .row {
     margin: 80px 0px;
     padding-bottom: 50px; }
   .offer .image-container {
-    border: 1px solid black;
-    width: 500px;
+    width: 570px;
     height: 300px; }
+    .offer .image-container img {
+      width: 100%;
+      height: 100%; }
 
 .choose .choose-header {
   margin: 60px 0px 60px 0px; }
