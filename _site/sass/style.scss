@@ -1,5 +1,5 @@
 // variables
-$primary-font:'Poppins', sans-serif;
+$primary-font:'Merriweather', serif;
 
 $primary-color: #2980b9;
 $secondary-color: #f1c40f;
@@ -13,6 +13,7 @@ body{
   width: 100%;
   background-color: #fff;
   text-align: center;
+  font-family: $primary-font;
 }
 
 // Navigation

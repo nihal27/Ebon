@@ -5,7 +5,8 @@
 body {
   width: 100%;
   background-color: #fff;
-  text-align: center; }
+  text-align: center;
+  font-family: "Merriweather", serif; }
 
 .top-nav {
   width: 100%; }
@@ -22,7 +23,7 @@ body {
     font-weight: 600;
     color: #000;
     font-size: 13px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Merriweather", serif;
     letter-spacing: 0.5px;
     word-spacing: 1px; }
   .top-nav button.navbar-toggler:focus, .top-nav button.navbar-toggler:hover {
@@ -58,7 +59,7 @@ body {
     letter-spacing: 0.5px;
     word-spacing: 1px;
     font-size: 12px;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Merriweather", serif; }
   .intro .intro-heading span {
     font-size: 30px;
     color: #3498db; }
