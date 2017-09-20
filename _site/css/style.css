@@ -95,8 +95,7 @@ body {
 
 .offer {
   margin-top: 50px;
-  background-color: #f5f7fa;
-  box-shadow: 0px 0px 5px #ccc; }
+  background-color: #f5f7fa; }
   .offer h3 {
     letter-spacing: 0.5px;
     word-spacing: 1px;
@@ -147,7 +146,6 @@ body {
 .service {
   margin: 100px 0px 0px 0px;
   background-color: #e6e9ed;
-  box-shadow: 0px 0px 5px #ccc;
   width: 100%;
   height: 900px; }
   .service h2 {
