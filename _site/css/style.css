@@ -191,20 +191,21 @@ body {
 .consult .consult-container {
   position: relative;
   width: 100%;
-  border: 1px solid black;
   height: 450px; }
 .consult .image {
-  border: 1px solid black;
   display: block;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  box-shadow: -6px 6px 20px #ccc;
+  border-radius: 2px; }
 .consult .overlay {
+  border-radius: 2px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: #000;
-  opacity: 0.5;
+  opacity: 0.7;
   overflow: hidden;
   width: 100%;
   height: 0;
