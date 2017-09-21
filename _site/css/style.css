@@ -302,6 +302,9 @@ body {
   background-attachment: fixed; }
 
 #mc_embed_signup {
-  margin-top: 50px; }
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  word-spacing: 1px; }
 
 /*# sourceMappingURL=style.css.map */
