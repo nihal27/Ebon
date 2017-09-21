@@ -47,7 +47,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    top: 77px; }
+    top: 80px; }
   .intro .intro-img-sec,
   .intro .intro-heading {
     margin: 30px 0px; }
@@ -109,13 +109,13 @@ body {
     word-spacing: 1px;
     font-size: 13px; }
   .offer .offer-details {
-    margin-top: 80px; }
+    margin-top: 50px; }
     .offer .offer-details p {
       letter-spacing: 0.5px;
       word-spacing: 1px;
-      font-size: 12px;
-      line-height: 20px;
-      padding: 20px 20px; }
+      font-size: 13px;
+      line-height: 25px;
+      padding: 0px 20px; }
   .offer .row {
     margin: 120px 0px;
     padding-bottom: 100px; }
