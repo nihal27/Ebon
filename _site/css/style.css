@@ -32,9 +32,11 @@ body {
 .navbar-toggler-icon .fa {
   padding-top: 5px !important; }
 
-.header img {
-  width: 100%;
-  height: 700px; }
+.header {
+  margin-top: -80px; }
+  .header img {
+    width: 100%;
+    height: 720px; }
 
 .intro {
   margin-top: 120px; }
@@ -252,7 +254,7 @@ body {
   margin: 100px 0px;
   background-color: #f7f7f7; }
   .blog h2 {
-    margin-top: 50px;
+    padding-top: 100px;
     letter-spacing: 0.5px;
     word-spacing: 1px;
     font-size: 25px;
@@ -268,18 +270,24 @@ body {
   .blog .blog-container a {
     text-decoration: none; }
   .blog .blog-container h3 {
+    padding: 10px 0;
+    text-transform: capitalize;
     font-size: 15px;
     letter-spacing: 0.5px;
-    word-spacing: 1px; }
+    word-spacing: 1px;
+    margin-bottom: 60px;
+    color: #2c3e50; }
   .blog .img-container {
-    border: 1px solid black;
     margin-top: 50px;
     margin-left: 12px;
     width: 355px;
-    height: 300px; }
+    height: 300px;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 3px; }
     .blog .img-container img {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      border-radius: 3px; }
   .blog a {
     text-transform: capitalize; }
 
