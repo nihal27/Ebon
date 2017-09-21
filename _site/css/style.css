@@ -47,7 +47,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    top: 100px; }
+    top: 77px; }
   .intro .intro-img-sec,
   .intro .intro-heading {
     margin: 30px 0px; }
@@ -83,16 +83,18 @@ body {
     border-radius: 2px; }
     .intro .detail a:hover {
       background-color: rgba(0, 0, 0, 0.5); }
-  .intro .features ul {
-    float: left; }
-  .intro .features li {
-    list-style-type: none; }
-  .intro .features span {
-    float: left;
-    margin-left: 14px;
-    padding: 10px 10px; }
-  .intro .features p {
-    text-align: left; }
+  .intro .features {
+    margin-left: 30px; }
+    .intro .features ul {
+      float: left; }
+    .intro .features li {
+      list-style-type: none; }
+    .intro .features span {
+      float: left;
+      margin-left: 14px;
+      padding: 10px 10px; }
+    .intro .features p {
+      text-align: left; }
 
 .offer {
   margin-top: 50px;
@@ -100,7 +102,7 @@ body {
   .offer h3 {
     letter-spacing: 0.5px;
     word-spacing: 1px;
-    padding-top: 60px;
+    padding-top: 100px;
     text-transform: capitalize; }
   .offer p {
     letter-spacing: 0.5px;
@@ -108,9 +110,15 @@ body {
     font-size: 13px; }
   .offer .offer-details {
     margin-top: 80px; }
+    .offer .offer-details p {
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 20px 20px; }
   .offer .row {
-    margin: 80px 0px;
-    padding-bottom: 50px; }
+    margin: 120px 0px;
+    padding-bottom: 100px; }
   .offer .image-container {
     width: 400px;
     height: 300px; }
@@ -142,8 +150,9 @@ body {
 .choose .choose-detail p {
   letter-spacing: 0.5px;
   word-spacing: 1px;
-  font-size: 13px;
-  padding: 20px 10px; }
+  font-size: 12px;
+  line-height: 20px;
+  padding: 20px 20px; }
 
 .service {
   margin: 100px 0px 0px 0px;
