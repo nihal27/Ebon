@@ -27,6 +27,8 @@ body {
     font-family: "Merriweather", serif;
     letter-spacing: 0.5px;
     word-spacing: 1px; }
+    .top-nav a:hover {
+      color: #2ac5ee; }
   .top-nav button.navbar-toggler:focus, .top-nav button.navbar-toggler:hover {
     outline: inherit; }
 

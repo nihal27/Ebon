@@ -40,6 +40,9 @@ body{
     font-family: $primary-font;
     letter-spacing: 0.5px;
     word-spacing: 1px;
+    &:hover{
+        color:#2ac5ee;
+      }
   }
   button.navbar-toggler:focus, button.navbar-toggler:hover{
     outline: inherit;
