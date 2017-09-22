@@ -54,6 +54,7 @@ body{
    }
 }
 
+
 // slider
 .header{
   margin-top: -60px;
@@ -61,7 +62,14 @@ body{
     width: 100%;
     height:720px;
   }
+  .carousel-item{
+    h3{
+      position: relative;
+      top: -200px;
+    }
+  }
 }
+
 
 // intro section
 
