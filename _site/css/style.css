@@ -379,7 +379,8 @@ body {
     font-size: 13px;
     letter-spacing: 0.5px;
     word-spacing: 1px;
-    color: #95a5a6; }
+    color: #95a5a6;
+    text-transform: capitalize; }
     .footer-credit .secondary-col .inner-container a:hover {
       color: #2ac5ee; }
 
