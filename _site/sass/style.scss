@@ -223,12 +223,19 @@ body{
     background-color:#2ac5ee;
   }
   .choose-detail{
-    p{
+    h3{
       letter-spacing: 0.5px;
       word-spacing: 1px;
       font-size: 13px;
+      padding: 20px 0px 10px 0px;
+      color: #000;
+    }
+    p{
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+      font-size: 11px;
       line-height: 24px;
-      padding: 20px 20px;
+      padding: 0px 20px;
     }
   }
 }

@@ -154,12 +154,18 @@ body {
   padding-top: 8%;
   color: #fff;
   background-color: #2ac5ee; }
-.choose .choose-detail p {
+.choose .choose-detail h3 {
   letter-spacing: 0.5px;
   word-spacing: 1px;
   font-size: 13px;
+  padding: 20px 0px 10px 0px;
+  color: #000; }
+.choose .choose-detail p {
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  font-size: 11px;
   line-height: 24px;
-  padding: 20px 20px; }
+  padding: 0px 20px; }
 
 .service {
   margin: 100px 0px 0px 0px;
