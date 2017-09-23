@@ -21,8 +21,8 @@ body{
 .top-nav{
   width: 100%;
   .navbar{
-    background-color: #fff;
-    box-shadow: 0px 0px 8px #ccc;
+    /*background-color: #fff;*/
+    /*box-shadow: 0px 0px 8px #ccc;*/
     height: 60px;
   }
   ul{
@@ -578,7 +578,6 @@ body{
 /*page styles*/
 
 .student-top-container{
-  border: 1px solid black;
   height: 400px;
    img{
     width:100%;
@@ -587,11 +586,64 @@ body{
    h3{
     margin-top: 22%;
     text-transform: capitalize;
-    font-size: 32px;
+    font-size: 35px;
     letter-spacing: 0.5px;
    }
 }
 
 .middle{
   background-color: #f7f7f7;
+  height: 1420px;
+  h3{
+    margin: 100px 0px 0px 0px ;
+    text-align: left;
+    color: #2c3e50;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+  }
+  .underline{
+    height: 1px;
+    border: 1px solid #f39c12;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+
+  #one{
+    width: 15%;
+  }
+  #two{
+    width: 11%;
+  }
+  .pro{
+   width: 13%;
+  }
+  p{
+   text-align: left;
+   letter-spacing: 0.5px;
+   word-spacing: 1px;
+   line-height: 25px;
+   padding: 10px ;
+   font-size: 13px;
+  }
+  i{
+    padding: 0px 10px;
+  }
+  a{
+         padding: 10px 30px;
+         box-shadow: -3px 3px 5px #ccc;
+         text-decoration: none;
+         background-color:#2ac5ee;
+         color: #fff;
+         letter-spacing: 0.5px;
+         word-spacing: 1px;
+         border-radius: 2px;
+         text-transform: capitalize;
+         position: relative;
+         top: 120px;
+
+         &:hover{
+           background-color: rgba(0,0,0,0.5);
+         }
+       }
 }
