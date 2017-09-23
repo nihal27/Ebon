@@ -67,6 +67,7 @@ body {
     letter-spacing: 0.5px;
     word-spacing: 1px;
     font-size: 12px;
+    padding-top: 6px;
     font-family: "Merriweather", serif; }
   .intro .intro-heading span {
     font-size: 30px;
@@ -113,7 +114,8 @@ body {
   .offer p {
     letter-spacing: 0.5px;
     word-spacing: 1px;
-    font-size: 13px; }
+    font-size: 13px;
+    padding-top: 6px; }
   .offer .offer-details {
     margin-top: 50px; }
     .offer .offer-details p {
@@ -143,7 +145,8 @@ body {
   .choose .choose-header p {
     letter-spacing: 0.5px;
     word-spacing: 1px;
-    font-size: 13px; }
+    font-size: 13px;
+    padding-top: 6px; }
 .choose .flat-icon {
   width: 100px;
   height: 100px;
@@ -163,7 +166,7 @@ body {
 .choose .choose-detail p {
   letter-spacing: 0.5px;
   word-spacing: 1px;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 24px;
   padding: 0px 20px; }
 
@@ -180,6 +183,7 @@ body {
     letter-spacing: 0.3px;
     word-spacing: 1px;
     font-size: 13px;
+    padding-top: 6px;
     margin-bottom: 150px; }
   .service .service-container {
     position: relative;
@@ -234,6 +238,7 @@ body {
   letter-spacing: 0.3px;
   word-spacing: 1px;
   font-size: 13px;
+  padding-top: 6px;
   margin-bottom: 140px; }
 .consult .consult-container {
   position: relative;
@@ -283,7 +288,8 @@ body {
     font-size: 12px;
     letter-spacing: 0.3px;
     word-spacing: 1px;
-    margin-bottom: -1rem; }
+    margin-bottom: -1rem;
+    padding-top: 6px; }
   .blog .blog-container li {
     display: inline-block;
     float: left;
@@ -334,7 +340,7 @@ body {
   font-family: "Merriweather", serif; }
 
 #mc_embed_signup .button {
-  background-color: #E91E63; }
+  background-color: #2980b9; }
 
 /*footer*/
 .footer-credit {
@@ -381,7 +387,7 @@ body {
     padding-top: 25px; }
   .footer-credit .secondary-col .col-1,
   .footer-credit .secondary-col .col-2 {
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: 30px; }
   .footer-credit .secondary-col .inner-container li {
     list-style-type: none;
@@ -395,6 +401,9 @@ body {
     text-transform: capitalize; }
     .footer-credit .secondary-col .inner-container a:hover {
       color: #2ac5ee; }
+  .footer-credit .col {
+    margin-top: 30px;
+    text-align: left; }
 
 .copy {
   background-color: #222;
