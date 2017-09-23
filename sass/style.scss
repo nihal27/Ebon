@@ -573,3 +573,25 @@ body{
     top: 10px;
   }
 }
+
+
+/*page styles*/
+
+.student-top-container{
+  border: 1px solid black;
+  height: 400px;
+   img{
+    width:100%;
+    height: 100%;
+   }
+   h3{
+    margin-top: 22%;
+    text-transform: capitalize;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+   }
+}
+
+.middle{
+  background-color: #f7f7f7;
+}
