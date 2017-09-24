@@ -424,6 +424,8 @@ body {
   .student-top-container .image-container img {
     width: 100%;
     height: 100%; }
+.student-top-container p {
+  padding-top: 50px; }
 .student-top-container h3 {
   position: absolute;
   top: 55%;
@@ -454,6 +456,12 @@ body {
     width: 11%; }
   .middle #employee-two {
     width: 28%; }
+  .middle #career-one {
+    width: 24%; }
+  .middle #business-one {
+    width: 27%; }
+  .middle #business-two {
+    width: 20%; }
   .middle p {
     text-align: left;
     letter-spacing: 0.5px;
