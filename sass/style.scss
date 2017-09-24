@@ -669,3 +669,45 @@ body{
          }
        }
 }
+
+
+/*privacy & policy page style*/
+
+.privacy{
+
+  background-color: #f7f7f7;
+  margin-top: 65px;
+  h3{
+   margin: 100px 0px 0px 0px;
+   color: #2c3e50;
+   letter-spacing: 0.5px;
+   word-spacing: 1px;
+
+  }
+  h6{
+   margin-bottom: 100px;
+   padding-top: 20px;
+   color:#7f8c8d;
+   letter-spacing: 0.5px;
+   word-spacing: 1px;
+   font-size: 14px;
+  }
+  .container{
+     float: left;
+    i{
+
+      padding: 0px 30px;
+      margin-left: 33%;
+      color:#2980b9;
+
+  }
+  p{
+    text-align: left;
+   letter-spacing: 0.5px;
+   word-spacing: 1px;
+   line-height: 25px;
+   padding: 10px ;
+   font-size: 13px;
+  }
+} 
+}
