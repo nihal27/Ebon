@@ -540,11 +540,9 @@ body {
         margin-top: 100px; }
       .wrapper .main-container .why-container .nav {
         float: left;
-        background-color: #f7f7f7;
-        color: #fff; }
+        background-color: #f7f7f7; }
       .wrapper .main-container .why-container .nav-pills .nav-link.active, .wrapper .main-container .why-container .show > .nav-pills .nav-link {
-        background-color: #2ac5ee;
-        color: #000; }
+        background-color: #2ac5ee; }
       .wrapper .main-container .why-container .nav-pills .nav-link {
         border-radius: 0; }
       .wrapper .main-container .why-container .tab-content {
