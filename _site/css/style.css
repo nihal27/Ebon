@@ -528,9 +528,28 @@ body {
   .wrapper .col-lg-4 {
     padding: 0; }
   .wrapper .main-container {
-    border: 1px solid black;
     height: 1000px;
     background-image: linear-gradient(to bottom, #f6f6f6, #f8f8f8); }
+    .wrapper .main-container .why-container {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 100px; }
+      .wrapper .main-container .why-container .container {
+        box-shadow: 0px 0px 5px #ccc;
+        padding: 0;
+        margin-top: 100px;
+        border-radius: 3px; }
+      .wrapper .main-container .why-container .nav {
+        float: left;
+        background-color: #f7f7f7; }
+      .wrapper .main-container .why-container .nav-pills .nav-link.active, .wrapper .main-container .why-container .show > .nav-pills .nav-link {
+        background-color: #2ac5ee; }
+      .wrapper .main-container .why-container .nav-pills .nav-link {
+        border-radius: 0; }
+      .wrapper .main-container .why-container .tab-content {
+        background-color: #fff;
+        width: 100%;
+        height: 100%; }
   .wrapper .sidebar {
     border: 1px solid black;
     height: 1000px;
