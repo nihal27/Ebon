@@ -716,8 +716,6 @@ body{
 
 .wrapper{
    width: 100%;
-   height: 1200px;
-   border:1px solid black;
    margin: 60px 0px 0px 0px;
 
     .col-lg-8{
@@ -729,23 +727,99 @@ body{
     }
 
   .main-container {
-    // border: 1px solid black;
+
     height: 1000px;
     background-image: linear-gradient(to bottom,#f6f6f6,#f8f8f8);
 
+
+    .top-section{
+    h3{
+      padding-top:100px;
+      color: #2ac5ee;
+      font-size: 23px;
+      line-height: 28px;
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+      text-align: left;
+      padding-left: 12%;
+    }
+    p{
+       letter-spacing: 0.5px;
+       word-spacing: 1px;
+       font-size: 14px;
+       padding-bottom: 60px;
+       text-align: left;
+       padding-left: 12%;
+    }  
+    }
+
+    .second-sec{
+
+      h3{
+      padding-top:50px;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+      text-align: left;
+      padding-left: 12%;  
+      }
+
+      .content-container{
+        margin: 50px 100px 100px 100px;
+      }
+
+      ul {
+        float: left;
+      }
+      li{
+        float: left;
+        list-style-type: none;
+      }
+      span i{
+        color: #2ac5ee;
+        float: left;
+        font-size: 50px;
+        padding: 10px 20px 0px 20px;
+      }
+
+      h6,p{
+         text-align: left;
+      }
+
+      h6{
+        text-transform: capitalize;
+        font-size: 20px;
+      }
+      p{
+        letter-spacing: 0.5px;
+       word-spacing: 1px;
+       font-size: 14px;
+      }
+    }
+    
 
     .why-container{
       width: 80%;
       margin: 0 auto;
       margin-top: 100px;
+
+      h3{
+        padding-top: 160px;
+        text-align: left;
+      }
       .container{
         box-shadow: 0px 0px 20px #ccc;
         padding:0;
-        margin-top: 100px;
+        margin-top: 60px;
       }
       .nav{
         float: left;
         background-color: #f7f7f7;
+      }
+      .nav i{
+        font-size: 20px;
+        padding: 15px;
       }
       .nav-pills .nav-link.active, .show>.nav-pills .nav-link{
         background-color: #2ac5ee;
@@ -758,24 +832,29 @@ body{
         width: 100%;
         height: 100%;
       }
+
+      .tab-container{
+        margin-left: 90px;
+        h3{
+          padding: 20px;
+
+        }
+        p{
+          text-align: left;
+          padding: 16px;
+          letter-spacing: 0.5px;
+          word-spacing: 1px;
+        }
+      }
     }
   }
 
   .sidebar{
-    border: 1px solid black;
     height: 1000px;
-   background: #FC466B;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to top, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to top, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC); 
+    background: linear-gradient(to bottom, #5B86E5, #36D1DC);
   }
-
-
-
-
-
-
-
 
 
 }
