@@ -297,17 +297,18 @@ body {
   .blog .blog-container a {
     text-decoration: none; }
   .blog .blog-container h3 {
-    padding: 10px 0;
+    padding: 10px;
     text-transform: capitalize;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 0.5px;
     word-spacing: 1px;
     margin-bottom: 60px;
-    color: #2c3e50; }
+    color: #2c3e50;
+    line-height: 26px; }
   .blog .img-container {
     margin-top: 50px;
     margin-left: 12px;
-    width: 355px;
+    width: 418px;
     height: 300px;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 3px; }
@@ -317,6 +318,8 @@ body {
       border-radius: 3px; }
   .blog a {
     text-transform: capitalize; }
+  .blog figcaption {
+    width: 438px; }
 
 /*subscription*/
 .sub {
