@@ -948,7 +948,26 @@ body{
   .content-container{
     position:relative;
     top:-382px;
-    border: 1px solid black;
+
+    a{
+      text-decoration: none;
+      padding: 10px;
+    }
+    h2{
+      font-size: 18px;
+      padding-left:5px;
+    }
+    p{
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+      font-size: 13px;
+      padding-left:5px;
+      line-height: 25px;
+    }
+    span{
+      font-size: 13px;
+    }
+
   }
 
 }
