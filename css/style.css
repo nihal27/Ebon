@@ -14,6 +14,14 @@ body {
     background-color: #fff;
     box-shadow: 0px 0px 8px #ccc;
     height: 60px; }
+  .top-nav .navbar-brand {
+    padding: 0;
+    margin: 0; }
+    .top-nav .navbar-brand img {
+      width: 70px;
+      height: 70px;
+      position: relative;
+      top: 3px; }
   .top-nav ul {
     float: left; }
   .top-nav li {
@@ -35,14 +43,33 @@ body {
 .navbar-toggler-icon .fa {
   padding-top: 5px !important; }
 
-.header {
-  margin-top: -60px; }
-  .header img {
-    width: 100%;
-    height: 735px; }
-  .header .carousel-item h3 {
-    position: relative;
-    top: -200px; }
+.header .image-container {
+  background-image: url("../assets/header/header.jpeg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 720px; }
+.header .content .upper-content {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .header .content .upper-content span {
+    color: #2ac5ee; }
+  .header .content .upper-content h1 {
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    word-spacing: 1px; }
+  .header .content .upper-content p {
+    font-size: 12.5px;
+    color: #ccc;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 32px; }
 
 .intro {
   margin-top: 120px; }

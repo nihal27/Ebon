@@ -25,6 +25,18 @@ body{
     box-shadow: 0px 0px 8px #ccc;
     height: 60px;
   }
+  .navbar-brand{
+    // border: 1px solid black;
+    padding:0;
+    margin:0;
+     
+    img{
+       width: 70px;
+       height: 70px;
+       position:relative;
+       top:3px;
+    }
+  }
   ul{
     float: left;
   }
@@ -55,20 +67,53 @@ body{
 }
 
 
-// slider
+
+
+
+
+// header
 .header{
-  margin-top: -60px;
-  img{
+  
+   .image-container{
+    background-image: url("../assets/header/header.jpeg");
+    background-position:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
     width: 100%;
-    height:735px;
-  }
-  .carousel-item{
-    h3{
-      position: relative;
-      top: -200px;
+    height: 720px;
+   }
+.content{
+  .upper-content{
+    width: 800px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    span{
+       color:#2ac5ee;
+    }
+
+    h1{
+     font-size: 100px;
+     color: #fff;
+     letter-spacing: 0.5px;
+     word-spacing: 1px;
+    }
+    p{
+      font-size: 12.5px;
+      color: #ccc;
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+      line-height: 32px;
     }
   }
 }
+}
+
+
+
 
 
 // intro section
