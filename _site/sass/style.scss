@@ -109,7 +109,38 @@ body{
       line-height: 32px;
     }
   }
-}
+  .below-content{
+    
+    position:absolute;
+    top:82%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+   }
+  .sub-point{
+    text-align: left;
+    li{
+      list-style-type: none;
+    }
+    span{
+      position:relative;
+      top:25px;
+      left: -30px;
+      padding: 0px 5px;
+
+     .fa{
+         color:#2ac5ee;
+     }
+
+    }
+    p{
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+    }
+  }
+
+ }
 }
 
 

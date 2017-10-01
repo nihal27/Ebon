@@ -70,6 +70,27 @@ body {
     letter-spacing: 0.5px;
     word-spacing: 1px;
     line-height: 32px; }
+.header .content .below-content {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; }
+.header .content .sub-point {
+  text-align: left; }
+  .header .content .sub-point li {
+    list-style-type: none; }
+  .header .content .sub-point span {
+    position: relative;
+    top: 25px;
+    left: -30px;
+    padding: 0px 5px; }
+    .header .content .sub-point span .fa {
+      color: #2ac5ee; }
+  .header .content .sub-point p {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px; }
 
 .intro {
   margin-top: 120px; }
