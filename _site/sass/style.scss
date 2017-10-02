@@ -1129,3 +1129,28 @@ body{
       line-height: 26px;
     }
 }
+
+// contact page
+.contact{
+  background-color:#f7f7f7;
+  .top-image{
+    width:100%;
+    height: 500px;
+    background-image:url("../assets/contact/contact.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+  }
+  h1{
+    position:absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color:#fff;
+  }
+}
