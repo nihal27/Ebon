@@ -1,8 +1,9 @@
 
 $(window).on('load',function(){
-  $('.preloader').fadeOut('slow',function(){
-    $('.overlay').remove();
-  });
+  $('.spinner').fadeOut('slow',function(){
+    $('.preloader').remove();
+    $("nav").addClass('fixed-top');
+  })
 });
 
 
