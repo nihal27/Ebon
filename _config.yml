@@ -6,3 +6,5 @@ description: Outsourcing is awesome, save your time
 baseurl: /Ebon
 url: http://www.ebonx.com
 permalink: pretty
+plugins:
+  - jekyll-sitemap
