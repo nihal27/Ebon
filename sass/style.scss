@@ -1190,12 +1190,14 @@ body{
       height: 100%;
     }
   }
-  button{
+   button{
     margin: 100px 0px 50px 0px ;
+    box-shadow: 4px -4px 20px 0px #ccc;
   }
 
   #submit,
   #close{
     margin:0;
+    box-shadow:none;
   }
 }
