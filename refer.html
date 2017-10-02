@@ -2,3 +2,51 @@
 layout: default
 permalink: /refer.html
 ---
+
+<!-- refer -->
+<div class="refer">
+
+<div class="img-container">
+	<img src="assets/refer/refer.jpg" alt="refer">
+</div>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Modal">refer & earn</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Refer & Earn</h3>
+      </div>
+
+
+      <div class="modal-body">
+        
+                             <form method="POST" action="http://formspree.io/anand.pal2050@gmail.com" class="form-group">
+                              
+                              <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                              <input class="form-control" type="text" name="Name" placeholder="Name" required="true">
+                              </div>
+                              <br>
+                              
+                              <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                              <input class="form-control" type="number" name="Phone no." placeholder="Mobile no." required="true">
+                              </div>
+                              <br>
+                              
+                              <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                               <input type="text" name="Email Id" class="form-control" placeholder="Email" required="true">
+                                </div>
+                                <br>
+                              <button class="btn btn-primary" id="submit" type="submit">submit</button>
+                              <button class="btn btn-secondary" id="close" data-dismiss="modal">Close</button>
+                          </form>
+
+      </div>
+    
+  </div>
+</div>
+</div>
