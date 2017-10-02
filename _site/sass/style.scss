@@ -109,8 +109,9 @@ body{
       line-height: 32px;
     }
   }
+  
   .below-content{
-    
+    background-color:rgba(0,0,0,0.3);
     position:absolute;
     top:82%;
     left: 50%;
@@ -118,14 +119,14 @@ body{
     color: #fff;
    }
   .sub-point{
-    text-align: left;
     li{
       list-style-type: none;
+      display: inline;
     }
     span{
       position:relative;
-      top:25px;
-      left: -30px;
+      top:22px;
+      left: -80px;
       padding: 0px 5px;
 
      .fa{
@@ -134,9 +135,11 @@ body{
 
     }
     p{
+      text-align: left;
       font-size: 13px;
       letter-spacing: 0.5px;
       word-spacing: 1px;
+      padding-left:35px;
     }
   }
 
@@ -934,6 +937,47 @@ body{
     background: #36D1DC; 
     background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC); 
     background: linear-gradient(to bottom, #5B86E5, #36D1DC);
+
+    .container{
+      h3{
+        padding-top:120px;
+        color: #fff;
+        font-size: 35px;
+      }
+      p{
+       margin-bottom: 30px;
+       letter-spacing: 0.5px;
+       word-spacing: 1px;
+       padding: 10px 50px;
+       font-size: 13px;
+       line-height: 25px;
+      }
+         form{
+
+          input{
+            font-size: 15px;
+            letter-spacing: 0.3px;
+          }
+
+          span{
+            width:40px;
+            padding: 0px 10px;
+
+            .fa{
+              font-size: 16px;
+            }
+            .fa-user{
+              color:#f1c40f;
+            }
+            .fa-phone{
+           color:#2980b9;
+            }
+            .fa-envelope{
+            color:#d35400;
+            }
+          }
+         }
+    }
   }
 
 

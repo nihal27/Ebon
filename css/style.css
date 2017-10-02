@@ -71,26 +71,28 @@ body {
     word-spacing: 1px;
     line-height: 32px; }
 .header .content .below-content {
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 82%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff; }
-.header .content .sub-point {
-  text-align: left; }
-  .header .content .sub-point li {
-    list-style-type: none; }
-  .header .content .sub-point span {
-    position: relative;
-    top: 25px;
-    left: -30px;
-    padding: 0px 5px; }
-    .header .content .sub-point span .fa {
-      color: #2ac5ee; }
-  .header .content .sub-point p {
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    word-spacing: 1px; }
+.header .content .sub-point li {
+  list-style-type: none;
+  display: inline; }
+.header .content .sub-point span {
+  position: relative;
+  top: 22px;
+  left: -80px;
+  padding: 0px 5px; }
+  .header .content .sub-point span .fa {
+    color: #2ac5ee; }
+.header .content .sub-point p {
+  text-align: left;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  padding-left: 35px; }
 
 .intro {
   margin-top: 120px; }
@@ -663,6 +665,31 @@ body {
     background: #36D1DC;
     background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC);
     background: linear-gradient(to bottom, #5B86E5, #36D1DC); }
+    .wrapper .sidebar .container h3 {
+      padding-top: 120px;
+      color: #fff;
+      font-size: 35px; }
+    .wrapper .sidebar .container p {
+      margin-bottom: 30px;
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
+      padding: 10px 50px;
+      font-size: 13px;
+      line-height: 25px; }
+    .wrapper .sidebar .container form input {
+      font-size: 15px;
+      letter-spacing: 0.3px; }
+    .wrapper .sidebar .container form span {
+      width: 40px;
+      padding: 0px 10px; }
+      .wrapper .sidebar .container form span .fa {
+        font-size: 16px; }
+      .wrapper .sidebar .container form span .fa-user {
+        color: #f1c40f; }
+      .wrapper .sidebar .container form span .fa-phone {
+        color: #2980b9; }
+      .wrapper .sidebar .container form span .fa-envelope {
+        color: #d35400; }
 
 .about {
   background-color: #f7f7f7; }
