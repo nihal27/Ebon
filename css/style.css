@@ -812,5 +812,15 @@ body {
     letter-spacing: 0.5px;
     word-spacing: 1px;
     color: #fff; }
+  .contact .form-container {
+    width: 50%;
+    margin: 80px auto; }
+  .contact form input {
+    font-size: 15px; }
+  .contact form span {
+    width: 40px; }
+  .contact form textarea {
+    font-size: 14px;
+    letter-spacing: 0.3px; }
 
 /*# sourceMappingURL=style.css.map */

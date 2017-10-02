@@ -1153,4 +1153,22 @@ body{
     word-spacing: 1px;
     color:#fff;
   }
+  .form-container{
+    width:50%;
+    margin:80px auto;
+  }
+  form{
+
+    input{
+      font-size: 15px;
+    }
+
+    span{
+      width: 40px;
+    }
+    textarea{
+      font-size: 14px;
+      letter-spacing: 0.3px;
+    }
+  }
 }
