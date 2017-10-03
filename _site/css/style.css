@@ -919,7 +919,40 @@ body {
     text-align: left; }
   .intro .features span {
     margin: inherit !important;
-    height: 86px !important; } }
+    height: 86px !important; }
+
+  .offer .image-container {
+    margin-top: -60px !important; }
+    .offer .image-container img {
+      height: 300px !important; }
+
+  .offer-details p {
+    text-align: left !important; }
+
+  .flat-icon {
+    padding-top: 11% !important; }
+
+  .service {
+    height: 1920px !important; }
+
+  .consult .image {
+    margin: 35px 0px !important; }
+
+  .blog {
+    height: 1700px !important; }
+
+  .blog .img-container {
+    margin-left: inherit !important;
+    width: 290px !important; }
+
+  .blog figcaption {
+    width: 280px !important; }
+
+  .col {
+    margin-left: 18px; }
+
+  .footer-credit {
+    height: 1320px !important; } }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
   /* Styles */ }
