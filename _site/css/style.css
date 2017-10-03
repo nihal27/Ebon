@@ -878,4 +878,69 @@ body {
   width: 100%;
   height: 100%; }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navbar {
+    height: inherit !important; }
+
+  .navbar-brand img {
+    width: 50px !important;
+    height: 50px !important; }
+
+  .header .image-container {
+    height: 635px; }
+
+  .content .upper-content {
+    width: 100% !important; }
+  .content h1 {
+    font-size: 50px !important; }
+  .content p {
+    line-height: inherit !important; }
+
+  .below-content {
+    top: 72% !important;
+    left: inherit !important;
+    transform: inherit !important; }
+    .below-content span {
+      top: 20px !important;
+      left: -120px !important; }
+    .below-content p {
+      text-align: inherit !important;
+      padding-left: inherit !important;
+      margin: 0; }
+
+  .intro .intro-img-sec {
+    width: 100% !important;
+    height: 300px !important;
+    margin: -10px 0px !important; }
+    .intro .intro-img-sec img {
+      top: -20px !important; }
+  .intro p {
+    text-align: left; }
+  .intro .features span {
+    margin: inherit !important;
+    height: 86px !important; } }
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */ }
+/* Smartphones (portrait) ----------- */
+/* viewport size <= 320px ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */ }
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }
+
 /*# sourceMappingURL=style.css.map */

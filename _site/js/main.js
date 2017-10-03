@@ -22,6 +22,3 @@ $(window).scroll(function() {
       $(".sidebar h3").css("padding-top",100+$scroll+"px");
    }
 });
-
-
-
