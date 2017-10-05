@@ -512,12 +512,37 @@ body {
     top: 10px; }
 
 /*page styles*/
-.student-top-container .image-container {
+.student-top-container .image-container .top-image {
   width: 100%;
-  height: 500px; }
-  .student-top-container .image-container img {
-    width: 100%;
-    height: 100%; }
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+.student-top-container .image-container #student {
+  background-image: url("../assets/services/students2.jpg"); }
+.student-top-container .image-container #professional {
+  background-image: url("../assets/services/professional2.jpg"); }
+.student-top-container .image-container #businessman {
+  background-image: url("../assets/services/business2.jpeg"); }
+.student-top-container .image-container #employee {
+  background-image: url("../assets/services/employee.jpg"); }
+.student-top-container .image-container #business {
+  background-image: url("../assets/consultancy/business2.jpg"); }
+.student-top-container .image-container #life {
+  background-image: url("../assets/consultancy/life2.jpeg"); }
+.student-top-container .image-container #career {
+  background-image: url("../assets/consultancy/career2.jpeg"); }
+.student-top-container .image-container h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 90px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  color: #fff; }
 .student-top-container p {
   padding-top: 50px; }
 .student-top-container h3 {
