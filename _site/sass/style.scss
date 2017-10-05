@@ -1403,7 +1403,7 @@ and (max-device-width : 480px) {
 }
 
 .top-image {
-  height: 310px !important;
+  height: 320px !important;
 }
 .student-top-container{
    h1{
@@ -1444,7 +1444,46 @@ and (max-device-width : 480px) {
     padding-top:-467px !important;
   }
 }
+.contact .form-container{
+  width: inherit !important;
+}
+.contact h1{
+  font-size: 50px !important;
+}
+.about .image-container{
+  width: 100% !important;
+}
 
+.blog-page h1 {
+    font-size: 50px !important;
+}
+.blog-page .top{
+  height:530px;
+}
+.blog-page .image-container{
+  width: 100%;
+}
+.blog-page .content {
+     width: 100% !important;
+     position: inherit !important;    
+}
+.blog-page .content-container {
+    position: inherit !important;
+}
+.blog-page .content-container h2{
+  font-size: 15px !important;
+  line-height: 24px;
+}
+.post p{
+  font-size: 11px !important;
+}
+.post .post-header h1{
+  font-size: 25px !important;
+  top:50% !important;
+}
+.post .post-header{
+  height: 520px !important;
+}
 }
 
 /* Smartphones (landscape) ----------- */
