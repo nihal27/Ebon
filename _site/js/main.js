@@ -16,9 +16,13 @@ $('#myTab a').click(function (e) {
 
 
 // scroll
+
+$width = $(window).width();
+if ($width > 480) {
 $(window).scroll(function() {
    $scroll = $(window).scrollTop();
    if ($scroll < 400 ) {
       $(".sidebar h3").css("padding-top",100+$scroll+"px");
    }
 });
+}

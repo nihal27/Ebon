@@ -979,8 +979,49 @@ body {
   .col {
     margin-left: 18px; }
 
+  .footer-credit .social-links li {
+    margin: 20px -20px 0px 10px !important; }
+
   .footer-credit {
-    height: 1320px !important; } }
+    height: 1320px !important; }
+
+  .top-image {
+    height: 310px !important; }
+
+  .student-top-container h1 {
+    font-size: 50px !important; }
+
+  .refer .img-container {
+    height: 380px !important; }
+
+  .wrapper .main-container .top-section h3 {
+    padding-left: 7% !important; }
+
+  .wrapper .main-container {
+    height: 1480px !important; }
+
+  .wrapper .main-container .second-sec span i {
+    padding: 10px 20px 10px 20px !important; }
+
+  .wrapper .main-container .why-container h3 {
+    padding-top: 460px;
+    text-align: inherit;
+    font-size: 22px; }
+
+  .wrapper .main-container .why-container .nav i {
+    font-size: 20px !important;
+    padding: 19px !important; }
+
+  .wrapper .main-container .why-container {
+    width: 90% !important; }
+
+  .wrapper .main-container .why-container .tab-container p {
+    font-size: 11px !important; }
+
+  .wrapper .sidebar {
+    height: 630px !important; }
+    .wrapper .sidebar h3 {
+      padding-top: -467px !important; } }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
   /* Styles */ }
