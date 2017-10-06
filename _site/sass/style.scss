@@ -729,7 +729,7 @@ body{
 }
 
 #student{
-background-image:url("../assets/services/students2.jpg");
+background-image:url("../assets/services/students1.jpg");
 }
 #professional{
   background-image:url("../assets/services/professional2.jpg");
@@ -1372,6 +1372,7 @@ and (max-device-width : 480px) {
 }
 .offer-details p{
   text-align: left !important;
+  padding:0 !important;
 }
 .flat-icon{
   padding-top:11% !important;
