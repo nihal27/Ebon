@@ -89,6 +89,7 @@ body{
         color:#2ac5ee;
       }
   }
+
   button.navbar-toggler:focus, button.navbar-toggler:hover{
     outline: inherit;
   }
@@ -99,7 +100,9 @@ body{
    }
 }
 
-
+#hide{
+    display: none;
+  }
 
 
 
@@ -1324,6 +1327,10 @@ and (max-device-width : 480px) {
     height: 50px !important;
   }
 }
+
+#hide{
+    display:inherit !important;
+  }
 .header{
 
   .image-container{

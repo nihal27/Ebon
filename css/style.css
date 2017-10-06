@@ -69,8 +69,11 @@ body {
 .navbar-toggler-icon .fa {
   padding-top: 5px !important; }
 
+#hide {
+  display: none; }
+
 .header .image-container {
-  background-image: url("../assets/header/header.jpeg");
+  background-image: url("../assets/header.jpeg");
   background-position: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -520,7 +523,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat; }
 .student-top-container .image-container #student {
-  background-image: url("../assets/services/students2.jpg"); }
+  background-image: url("../assets/services/students1.jpg"); }
 .student-top-container .image-container #professional {
   background-image: url("../assets/services/professional2.jpg"); }
 .student-top-container .image-container #businessman {
@@ -923,6 +926,9 @@ body {
     width: 50px !important;
     height: 50px !important; }
 
+  #hide {
+    display: inherit !important; }
+
   .header .image-container {
     height: 450px; }
 
@@ -955,7 +961,8 @@ body {
       height: 300px !important; }
 
   .offer-details p {
-    text-align: left !important; }
+    text-align: left !important;
+    padding: 0 !important; }
 
   .flat-icon {
     padding-top: 11% !important; }
