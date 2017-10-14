@@ -208,10 +208,10 @@ body {
     padding-bottom: 100px; }
   .offer .image-container {
     width: 100%;
-    height: 700px; }
+    height: 300px; }
     .offer .image-container img {
       width: 100%;
-      height: 400px;
+      height: 600px;
       position: relative;
       left: 45px; }
 
