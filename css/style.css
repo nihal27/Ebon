@@ -1018,6 +1018,9 @@ body {
     height: 1480px !important; }
 
   .wrapper .main-container .second-sec span i {
+     width: 240px !important; 
+    position: relative !important;
+    left: -36px !important;
     padding: 10px 20px 10px 20px !important; }
 
   .wrapper .main-container .why-container h3 {
