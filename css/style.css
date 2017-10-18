@@ -682,6 +682,7 @@ body {
       float: left;
       list-style-type: none; }
     .wrapper .main-container .second-sec span i {
+      height:100px;
       color: #2ac5ee;
       float: left;
       font-size: 50px;
