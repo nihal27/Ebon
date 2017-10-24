@@ -935,7 +935,8 @@ body {
     height: 450px; }
 
   .content .upper-content {
-    width: 100% !important; }
+    width: 100% !important;
+    top: 42% !important; }
   .content h1 {
     font-size: 50px !important; }
   .content p {
