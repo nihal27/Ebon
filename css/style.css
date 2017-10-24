@@ -73,13 +73,15 @@ body {
   display: none; }
 
 .header .image-container {
-  background-image: url("../assets/header.jpeg");
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
   width: 100%;
   height: 720px; }
+  .header .image-container .header-image {
+    background-image: url("../assets/header.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; }
 .header .content .upper-content {
   width: 800px;
   position: absolute;
@@ -132,7 +134,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    top: 85px; }
+    top: 212px; }
   .intro .intro-img-sec,
   .intro .intro-heading {
     margin: 30px 0px; }
@@ -211,9 +213,9 @@ body {
     height: 300px; }
     .offer .image-container img {
       width: 100%;
-      height: 450px;
+      height: 400px;
       position: relative;
-      left: 45px; }
+      left: 20px; }
 
 .choose .choose-header {
   margin: 60px 0px 60px 0px; }
@@ -230,10 +232,10 @@ body {
   width: 100px;
   height: 100px;
   margin: 80px auto 0px auto;
-  font-size: 25px;
+  font-size: 35px;
   border-radius: 50%;
   box-shadow: 0px 0px 5px #ccc;
-  padding-top: 8%;
+  padding-top: 6%;
   color: #fff;
   background-color: #2ac5ee; }
 .choose .choose-detail h3 {
@@ -332,7 +334,7 @@ body {
 .consult .consult-container {
   position: relative;
   width: 100%;
-  height: 400px; }
+  height: 365px; }
 .consult .image {
   display: block;
   width: 100%;
@@ -442,7 +444,7 @@ body {
 /*footer*/
 .footer-credit {
   width: 100%;
-  height: 400px; }
+  height: 420px; }
   .footer-credit .row {
     margin-top: 30px; }
   .footer-credit .primary-col h3 {
@@ -529,11 +531,11 @@ body {
 .student-top-container .image-container #businessman {
   background-image: url("../assets/services/business2.jpeg"); }
 .student-top-container .image-container #employee {
-  background-image: url("../assets/services/employee2.jpg"); }
+  background-image: url("../assets/services/employee.jpg"); }
 .student-top-container .image-container #business {
   background-image: url("../assets/consultancy/business2.jpg"); }
 .student-top-container .image-container #life {
-  background-image: url("../assets/consultancy/life2.jpg"); }
+  background-image: url("../assets/consultancy/life2.jpeg"); }
 .student-top-container .image-container #career {
   background-image: url("../assets/consultancy/career2.jpeg"); }
 .student-top-container .image-container h1 {
@@ -682,7 +684,6 @@ body {
       float: left;
       list-style-type: none; }
     .wrapper .main-container .second-sec span i {
-      height:100px;
       color: #2ac5ee;
       float: left;
       font-size: 50px;
@@ -1018,9 +1019,6 @@ body {
     height: 1480px !important; }
 
   .wrapper .main-container .second-sec span i {
-     width: 240px !important; 
-    position: relative !important;
-    left: -36px !important;
     padding: 10px 20px 10px 20px !important; }
 
   .wrapper .main-container .why-container h3 {
