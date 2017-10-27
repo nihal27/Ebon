@@ -1020,7 +1020,11 @@ body {
     height: 1480px !important; }
 
   .wrapper .main-container .second-sec span i {
-    padding: 35px 20px 10px 20px !important; }
+    padding: 0px 20px 10px 20px !important;
+    margin-top: 16px;
+    width: 100px;
+    
+  }
 
   .wrapper .main-container .why-container h3 {
     padding-top: 460px;
@@ -1035,7 +1039,9 @@ body {
     width: 90% !important; }
 
   .wrapper .main-container .why-container .tab-container p {
-    font-size: 11px !important; }
+    font-size: 11px !important;
+     width:  160px;
+  }
 
   .wrapper .sidebar {
     height: 630px !important; }
