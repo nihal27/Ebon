@@ -687,7 +687,7 @@ body {
       color: #2ac5ee;
       float: left;
       font-size: 50px;
-      padding: 10px 20px 0px 20px; }
+      padding: 10px 20px 35px 20px; }
     .wrapper .main-container .second-sec h6, .wrapper .main-container .second-sec p {
       text-align: left; }
     .wrapper .main-container .second-sec h6 {
@@ -1020,7 +1020,7 @@ body {
     height: 1480px !important; }
 
   .wrapper .main-container .second-sec span i {
-    padding: 10px 20px 10px 20px !important; }
+    padding: 35px 20px 10px 20px !important; }
 
   .wrapper .main-container .why-container h3 {
     padding-top: 460px;
