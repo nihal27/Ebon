@@ -1015,6 +1015,10 @@ body {
   .wrapper .main-container .second-sec h3 {
     padding-left: 0 !important;
     text-align: inherit !important; }
+  
+  .wrapper .main-container .second-sec p {
+    width:160px !important;
+  }
 
   .wrapper .main-container {
     height: 1480px !important; }
@@ -1040,7 +1044,6 @@ body {
 
   .wrapper .main-container .why-container .tab-container p {
     font-size: 11px !important;
-     width:  160px;
   }
 
   .wrapper .sidebar {
