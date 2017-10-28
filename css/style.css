@@ -746,7 +746,8 @@ body {
       word-spacing: 1px;
       padding: 10px 50px;
       font-size: 20px;
-      line-height: 25px; }
+      line-height: 25px;
+      color: #fff; }
     .wrapper .sidebar .container form input {
       font-size: 15px;
       letter-spacing: 0.3px; }
