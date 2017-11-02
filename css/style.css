@@ -849,9 +849,9 @@ body {
       height: 100%; }
     .post .post-header h1 {
       color: #fff;
-      font-size: 35px;
+      font-size: 38px;
       position: absolute;
-      top: 40%;
+      top: 80%;
       left: 50%;
       transform: translate(-50%, -50%);
       letter-spacing: 0.5px;
