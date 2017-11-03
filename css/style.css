@@ -873,7 +873,7 @@ body {
     background-image: url("../assets/contact.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: inherit;
     background-repeat: no-repeat; }
   .contact h1 {
     position: absolute;
@@ -998,7 +998,7 @@ body {
     height: 1320px !important; }
 
   .top-image {
-    height: 320px !important; }
+    height: 243px !important; }
 
   .student-top-container h1 {
     font-size: 50px !important; }
